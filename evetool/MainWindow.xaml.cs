@@ -23,5 +23,11 @@ namespace evetool
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            ssoLogin loginPage = new ssoLogin();
+            loginPage.ShowDialog();
+        }
     }
 }
